@@ -14,26 +14,26 @@
 
 - Cocoa touch Framework : ios 개발 환경을 구축하기 위한 최상위 프레임워크
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled.png)
+![Untitled](./ReadmeFiles/Untitled.png)
 
 - UIKit : 사용자의 인터페이스를 관리하고 이벤트를 처리하는 프레임워크
     - UIKit 앱은 기본적으로 MVC 구조를 사용한다
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%201.png)
+![Untitled](./ReadmeFiles/Untitled%201.png) 
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%202.png)
+![Untitled](./ReadmeFiles/Untitled%202.png)
 
 - 현실 MVC
     - ViewController와 View를 구별하기 어렵다.
     - MVC 패턴말고 다른 패턴을 사용하는 것도 잘 어울린다.
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%203.png)
+![Untitled](./ReadmeFiles/Untitled%203.png)
 
 ### ViewController 알아보기
 
 - UIView : 화면의 직사각형 영역에 대한 내용을 관리하는 개체
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%204.png)
+![Untitled](./ReadmeFiles/Untitled%204.png)
 
 - ViewController : 앱의 근간을 이루는 객체로 모든 앱은 최소한 하나 이상의 뷰 컨트롤러를 가지고 있다.
     - 데이터 변화에 따라서 view 컨텐츠를 업데이트
@@ -49,41 +49,41 @@
 
 - Add New Constraint : 제약 조건 설정 가능
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%205.png)
+![Untitled](./ReadmeFiles/Untitled%205.png)
 
 - Align : 두 개의 view 사이에 정렬 제약 조건 설정 가능
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%206.png)
+![Untitled](./ReadmeFiles/Untitled%206.png)
 
 - Resolve Auto Layout Issues
     - view를 업데이트 하거나, 누락된 제약을 추가하거나 삭제 가능
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%207.png)
+![Untitled](./ReadmeFiles/Untitled%207.png)
 
 - xcode 오른쪽 상단에서 preview 메뉴를 선택하면 다양한 해상도에서 viewController가 어떻게 보이는지 볼 수 있다.
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%208.png)
+![Untitled](./ReadmeFiles/Untitled%208.png)
 
 ### IBOutlet과 IBAction
 
 - xcode 오른쪽 상단에서 Assistant 메뉴를 선택하면 storyboard의 viewController Scene과 연결된 viewController를 화면에 띄울 수 있다.
 - ViewController와 Storyboard의 ViewController Scene을 연결하는 방법은 Storyboard의 CustomColass-Class의 칸에 ViewController의 이름을 넣어주면 된다.
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%209.png)
+![Untitled](./ReadmeFiles/Untitled%209.png)
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%2010.png)
+![Untitled](./ReadmeFiles/Untitled%2010.png)
 
 - 스토리보드에서 해당 view를 마우스오른쪽 버튼을 누르고 viewController.siwft 파일로 드래그하면 Outlet을 연결할 수 있다.
 - 색상변경을 위해 초록색 배경의 view의 outlet을 설정해주자. [ Name ] : colorView
 - Outlet 설정시 Strong과 Weak를 설정해주는 것은 메모리 회수 정책에 따른다.
     - Strong 설정시 메모리 주소가 발생할 수 있다.
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%2011.png)
+![Untitled](./ReadmeFiles/Untitled%2011.png)
 
 - 다음은 Button을 누르면 색상이 변경하는 Action을 생성하기 위해 버튼에 Action을 연결한다. [ Name ] : tapChangeColorButton
 - type은 UIBUtton으로 설정한다.
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%2012.png)
+![Untitled](./ReadmeFiles/Untitled%2012.png)
 
  
 
@@ -91,7 +91,7 @@
 
 다음과 같이 storyboard Scene을 구성한다.
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%2013.png)
+![Untitled](./ReadmeFiles/Untitled%2013.png)
 
 이때 constraints는 다음과 같이 설정한다.
 
@@ -113,7 +113,7 @@ view 안의 하단 Label bottom:20, leading:20, trailing: 20
 
  
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%2014.png)
+![Untitled](./ReadmeFiles/Untitled%2014.png)
 
 다음과 같이 오류가 해결된 것을 확인할 수 있다.
 
@@ -125,7 +125,7 @@ view 안의 하단 Label bottom:20, leading:20, trailing: 20
 
 아래 캡쳐를 보자.
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%2015.png)
+![Untitled](./ReadmeFiles/Untitled%2015.png)
 
 이번 문자열을 표시하기에 부족한 공간 오류를 해결하기 위해서는 Content Compression Resistance Priority를 설정해줘야 한다. (이 Priority의 설명도 위의 링크에 같이 포함되어있다.)
 
@@ -133,11 +133,11 @@ view 안의 하단 Label bottom:20, leading:20, trailing: 20
 
 하단 Label의 content Compression Resistance Priority의 vertical을 1000으로 설정해주면 해결 된다.
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%2016.png)
+![Untitled](./ReadmeFiles/Untitled%2016.png)
 
  이제 버튼 하나를 추가해주자.
 
-![Untitled](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/Untitled%2017.png)
+![Untitled](./ReadmeFiles/Untitled%2017.png)
 
 버튼은 view와의 align을 통해 center horizontally를 설정해주고, top:20의 제약조건을 추가해준다.
 
@@ -205,4 +205,4 @@ let quotes = [
 
 다음과 같이 버튼을 누를 때 마다 명언이 출력되는 완성된 화면을 볼 수 있다 :)
 
-[화면 기록 2022-07-25 오후 4.39.21.mov](%E1%84%86%E1%85%A7%E1%86%BC%E1%84%8B%E1%85%A5%E1%86%AB%20%E1%84%89%E1%85%A2%E1%86%BC%E1%84%89%E1%85%A5%E1%86%BC%E1%84%80%E1%85%B5%20%E1%84%8B%E1%85%A2%E1%86%B8%2007a34206e37749b88982f8c68d09b5ec/%25E1%2584%2592%25E1%2585%25AA%25E1%2584%2586%25E1%2585%25A7%25E1%2586%25AB_%25E1%2584%2580%25E1%2585%25B5%25E1%2584%2585%25E1%2585%25A9%25E1%2586%25A8_2022-07-25_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.39.21.mov)
+[화면 기록 2022-07-25 오후 4.39.21.mov](./ReadmeFiles/%25E1%2584%2592%25E1%2585%25AA%25E1%2584%2586%25E1%2585%25A7%25E1%2586%25AB_%25E1%2584%2580%25E1%2585%25B5%25E1%2584%2585%25E1%2585%25A9%25E1%2586%25A8_2022-07-25_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.39.21.mov)
